@@ -3,7 +3,7 @@ import Main from "./components/Main/Main";
 import Signup from "./components/Signup/Signup";
 import Login from "./components/Login/Login";
 import EmailVerify from "./components/EmailVerify";
-import Emailtemp  from "./components/Emailtemp";
+// import Emailtemp  from "./components/Emailtemp";
 import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -24,7 +24,7 @@ function App() {
 			<Route path="/login" exact element={<Login />} />
 			<Route path="/" element={<Navigate replace to="/login" />} />
 			<Route path="/api/auth/:id/verify/:token" element={<EmailVerify />} />
-			<Route path="/temp" exact element={<Emailtemp />} />
+			// <Route path="/temp" exact element={<Emailtemp />} />
 			
 
 
